@@ -12,7 +12,7 @@ body {
 .box {
   margin: 25% auto;
   width: 50%;
-  height: 50%;
+  height: 70%;
   display: block;
   border-bottom: none;
 }
@@ -24,6 +24,7 @@ body {
   display: block;
 
   background-color: white;
+  padding-top: 10px;
 }
 legend {
   padding-top: 3vh;
@@ -53,9 +54,9 @@ section div {
 
 .left-one div a {
   display: block;
-  text-align: left;
+  text-align: center;
   margin: 25px auto;
-  padding: 1vh;
+  padding: 2vh;
   font-size: 2vh;
   color: white;
   text-decoration: none;
