@@ -24,17 +24,15 @@ body {
   border: green solid 1px;
 }
 legend {
+    padding-top: 3vh;
   text-align: center;
 }
 fieldset {
   text-align: center;
   height: 5vh;
-  
 }
 .f {
-    padding-top: 10px;
-    
-    
+  padding-top: 10px;
 }
 
 section div {
@@ -54,11 +52,22 @@ section div a {
 }
 
 #a1 {
-  background-color: blue;
+  background-color: #4267b2;
 }
 #a2 {
   background-color: red;
 }
 #a3 {
   background-color: lightskyblue;
+}
+.right-one form {
+  display: block;
+  margin: 2vh auto;
+
+  text-align: center;
+}
+input {
+    padding: 10px;
+    border: none;
+    border-bottom: gray solid 1px;
 }
