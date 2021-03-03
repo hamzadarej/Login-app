@@ -10,15 +10,21 @@ body {
 }
 .box {
   margin: 25% auto;
-  border: 2px gray solid;
   width: 50%;
   height: 50%;
+  display: block;
+  border-bottom: none;
+  
 }
 .left-one ,.right-one {
+    
     width: 50%;
     height: 50%;
     float: left;
+    display: block;
+    border: green solid 1px;
 }
-div {
+legend ,fieldset{
     text-align: center;
 }
+
