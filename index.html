@@ -5,47 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/all.css" />
+    <link
+      rel="stylesheet"
+      href="css/fontawesome-free-5.15.2-web/css/fontAwesome.css"
+    />
     <title>Login app</title>
   </head>
   <body>
     <div class="box">
       <section class="left-one">
         <div>
-          <a href="#" id="a1">Facebook login</a>
-          <a href="#" id="a2">Google + login</a>
-          <a href="#" id="a3">Twitter login</a>
+          <a href="#" id="Facebook">Facebook login</a>
+          <a href="#" id="Google">Google + login</a>
+          <a href="#" id="Twitter">Twitter login</a>
         </div>
       </section>
       <section class="right-one">
         <legend>Sign in with</legend>
         <form action="right-side-form">
+            <div class="inputWicon">
+          <i class="far fa-user"></i>
           <input
             type="text"
             name="name or Email"
             placeholder="Username or email"
             id="1"
-          />
-          
+          /></div>
+          <div class="inputWicon">
+
+          <i class="fas fa-lock"></i>
           <input
             type="password"
             name="password"
             placeholder="Password"
             id="2"
-          />
-          <br />
-          <br />
+          /></div>
+          
           <input type="checkbox" name="checkit" />
           Remember me &nbsp
           <a href="#">Login</a>
-          
-          
         </form>
       </section>
       <fieldset class="f">
         <a href="#">Register now</a>
         <a href="#">Forgotten?</a>
-        
       </fieldset>
     </div>
   </body>
