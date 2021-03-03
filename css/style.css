@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+.box {
+  margin: 25% auto;
+  border: 2px gray solid;
+  width: 50%;
+  height: 50%;
+}
+.left-one ,.right-one {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+div {
+    text-align: center;
+}
