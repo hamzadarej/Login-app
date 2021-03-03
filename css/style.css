@@ -14,38 +14,51 @@ body {
   height: 50%;
   display: block;
   border-bottom: none;
-  
 }
-.left-one ,.right-one {
-    
-    width: 50%;
-    height: 50%;
-    float: left;
-    display: block;
-    border: green solid 1px;
-    
+.left-one,
+.right-one {
+  width: 50%;
+  height: 50%;
+  float: left;
+  display: block;
+  border: green solid 1px;
 }
 legend {
-    text-align: center;
+  text-align: center;
 }
 fieldset {
-    
-    text-align: center;
+  text-align: center;
+  height: 5vh;
+  
 }
-.left-one a {
-   
+.f {
+    padding-top: 10px;
     
-    display:block ;
-    color: white;
-    margin: 8% auto;
-    text-align: center;
+    
 }
+
+section div {
+  width: 50%;
+  height: 50%;
+  margin: 8% auto;
+}
+
+section div a {
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+  padding: 1vh;
+  font-size: 2vh;
+  color: white;
+  text-decoration: none;
+}
+
 #a1 {
-    background-color: blue;
+  background-color: blue;
 }
 #a2 {
-    background-color: red;
+  background-color: red;
 }
 #a3 {
-    background-color: lightskyblue;
+  background-color: lightskyblue;
 }
