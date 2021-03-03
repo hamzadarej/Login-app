@@ -23,8 +23,29 @@ body {
     float: left;
     display: block;
     border: green solid 1px;
+    
 }
-legend ,fieldset{
+legend {
     text-align: center;
 }
-
+fieldset {
+    
+    text-align: center;
+}
+.left-one a {
+   
+    
+    display:block ;
+    color: white;
+    margin: 8% auto;
+    text-align: center;
+}
+#a1 {
+    background-color: blue;
+}
+#a2 {
+    background-color: red;
+}
+#a3 {
+    background-color: lightskyblue;
+}
