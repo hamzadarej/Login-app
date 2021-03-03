@@ -26,6 +26,7 @@ body {
 legend {
     padding-top: 3vh;
   text-align: center;
+  font-size: large;
 }
 fieldset {
   text-align: center;
@@ -49,6 +50,7 @@ section div a {
   font-size: 2vh;
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
 #a1 {
@@ -70,4 +72,13 @@ input {
     padding: 10px;
     border: none;
     border-bottom: gray solid 1px;
+}
+form a {
+    background-color: blue;
+    color: white;
+    padding: 7px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
 }
