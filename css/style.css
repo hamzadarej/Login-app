@@ -6,7 +6,7 @@ body {
 }
 
 .countainer {
-  margin: 15% ;
+  margin: 15%;
   height: 45vh;
   width: 50vw;
   background-color: white;
@@ -24,87 +24,111 @@ body {
   margin: 15px;
   color: white;
   flex-wrap: wrap;
-  
 }
 .kid3 {
   height: 2px;
   width: 45vw;
-  color: blue;
+  color: rgb(29, 29, 201);
   border: 1px solid gray;
   align-items: center;
-
   display: flex;
   justify-content: center;
   font-size: x-large;
   padding-top: 5px;
-  
-  
+  font-weight: bold;
 }
 
-.kid1 , .kid2{
-    
-    color: black;
-    display: flex;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
-    align-items: center;
-    
-    
+.kid1,
+.kid2 {
+  color: black;
+  display: flex;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
 }
 #Facebook {
-    background-color: #4267b2;
-    padding: 5%;
-    color: white;
-    width: 14vw;
+  background-color: #4267b2;
+  padding: 5%;
+  color: white;
+  width: 14vw;
+  box-shadow: 100px black;
+}
 
-  }
-  
-  #Google {
-    background-color: red;
-    padding: 5%;
-    color: white;
-    width: 14vw;
-  }
-  #Twitter {
-    background-color: lightskyblue;
-    padding: 5%;
-    color: white;
-    width: 14vw;
-  }
-  .right-side-form {
-    display: block;
-    margin: vh auto;
-  
-    text-align: center;
-  }
-  input {
-    padding: 20px;
-    border: none;
-  }
-  form a {
-    background-color: blue;
-    color: white;
-    padding: 2% 5%;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: large;
-    font-weight: bold;
-  }
-  .inputWicon {
-    padding-left: 20px;
-    border-bottom: gray solid 1px;
-    position: relative;
-  }
-  .inputWicon i {
-    position: absolute;
-    left: 10px;
-    top: 20px;
-  }
-  .checkboxline {
-      padding-top: 25px;
-      
-  }
+#Google {
+  background-color: red;
+  padding: 5%;
+  color: white;
+  width: 14vw;
+}
+#Twitter {
+  background-color: lightskyblue;
+  padding: 5%;
+  color: white;
+  width: 14vw;
+}
+.right-side-form {
+  display: block;
+  margin: vh auto;
+
+  text-align: center;
+}
+input {
+  padding: 20px;
+  border: none;
+}
+form a {
+  background-color: blue;
+  color: white;
+  padding: 2% 5%;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+.inputWicon {
+  padding-left: 20px;
+  border-bottom: gray solid 1px;
+  position: relative;
+}
+.inputWicon i {
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+.checkboxline {
+  padding-top: 25px;
+}
+.circleOr {
+  position: absolute;
+  margin-bottom: 60px;
+  font-size: large;
+  border: 1px solid gray;
+  height: 45px;
+  width: 45px;
+  border-radius: 25px;
+  text-align: center;
+}
+.or {
+  padding-top: 10px;
+  color: gray;
+}
+.lineDown {
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 0px;
+  height: 90px;
+  border: gray dotted 1px;
+  color: gray;
+}
+.lineUp {
+  position: absolute;
+  margin-left: 20px;
+  width: 0px;
+  height: 90px;
+  border: gray 1px dotted;
+  margin-top: -95px;
+}
