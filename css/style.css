@@ -24,7 +24,7 @@ html {
   align-items: center;
   flex-direction: column;
   margin: 5px;
-  border: solid 1px red;
+  
 }
 
 .kid3 {
@@ -89,4 +89,27 @@ a {
   font-weight: bold;
   padding: 8px;
   border-radius: 4px;
+}
+.Or {
+  justify-content: center;
+}
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+ border: 1px solid;
+  border-radius: 20px;
+  color: gray;
+}
+.lineUp {
+  background-color: gray;
+  height: 8rem;
+  width: 1px;
+}
+.lineDown {
+  background-color:gray;
+  height: 8rem;
+  width: 1px;
 }
