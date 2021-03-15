@@ -1,1 +1,29 @@
+html {
+  font-size: 25px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.countainer {
+  display: grid;
+  border: 1px solid ;
+  height: 50vh;
+  width: 50vw;
+  grid-template-columns:47% 6% 47% ;
+  grid-template-rows: 90% 10%;
+  
+  
+}
+div {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin: 5px;
+
+}
+
 
