@@ -1,5 +1,5 @@
 html {
-  font-size: 25px;
+  font-size: 1.5rem;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -16,14 +16,76 @@ html {
   
   
 }
-div {
+div{
   border: 1px solid red;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
   margin: 5px;
+  
 
 }
+span {
+  display: flex;
+  justify-content:space-between;
+  margin: 20px;
+  align-items: center;
+  
+  
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  display: flex;
+  border: none;
+  padding: 0px 10px;
+  
+  
+}
+.inputWicon {
+  border-bottom:1px solid gray ;
+ 
+  
+}
+a {
+  text-decoration: none;
+  text-align: center;
+}
+#Facebook {
+  background-color: #4267b2;
+  padding: 5%;
+  color: white;
+  width: 14vw;
+  box-shadow: 100px black;
+  
+}
+#Google {
+  background-color: red;
+  padding: 5%;
+  color: white;
+  width: 14vw;
+}
+#Twitter {
+  background-color: lightskyblue;
+  padding: 5%;
+  color: white;
+  width: 14vw;
+}
+#login {
+  background-color: blue;
+  color: white;
+ 
+  font-weight:bold ;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+
+
 
 
